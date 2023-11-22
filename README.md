@@ -10,10 +10,10 @@ Two methods:
 
 ## 📺 YT hqdefault.jpg
 ```js
-javascript:(function(){var re = window.location.href.match(/v=([^\?&"'>]+)/i); if (re && re.length > 0) { var videoId = re[1]; window.open('https://i.ytimg.com/vi/' + videoId + '/hqdefault.jpg') } })();
+javascript:(_=>{var re = window.location.href.match(/v=([^\?&"'>]+)/i); if (re && re.length > 0) { var videoId = re[1]; window.open('https://i.ytimg.com/vi/'+videoId+'/hqdefault.jpg')}})()
 ```
 
 ## 📺 YT maxresdefault.webp
 ```js
-javascript:(function(){var re = window.location.href.match(/v=([^\?&"'>]+)/i); if (re && re.length > 0) { var videoId = re[1]; window.open('https://i.ytimg.com/vi_webp/' + videoId + '/maxresdefault.webp') } })();
+javascript:(_=>{var re = window.location.href.match(/v=([^\?&"'>]+)/i); if (re && re.length > 0) { var videoId = re[1]; window.open('https://i.ytimg.com/vi_webp/'+videoId+'/maxresdefault.webp')}})()
 ```
